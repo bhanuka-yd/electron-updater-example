@@ -2,11 +2,11 @@
 // See LICENSE for details
 
 
-const handleSqrlEvents = require("./handleSquirrelEvents");
-if (handleSqrlEvents()) {
-
-    return;
-} else {
+// const handleSqrlEvents = require("./handleSquirrelEvents");
+// if (handleSqrlEvents()) {
+//
+//     return;
+// } else {
 
     const {app, BrowserWindow, Menu, protocol, ipcMain} = require('electron');
     const log = require('electron-log');
@@ -155,4 +155,4 @@ if (handleSqrlEvents()) {
 //   autoUpdater.quitAndInstall();
 // })
 
-}
+// }
