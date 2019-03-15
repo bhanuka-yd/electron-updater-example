@@ -9,7 +9,7 @@ resultPromise = electronInstaller.createWindowsInstaller({
     appDirectory: appDir.toString(),
     outputDirectory: outDir.toString(),
     authors: 'My App Inc.',
-    exe: 'myapp.exe',
+    exe: 'electron-updater-example.exe',
     loadingGif : "load.gif"
 });
 
