@@ -1,6 +1,6 @@
 {
   "name": "electron-updater-example",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "main": "main.js",
   "description": "electron-updater example project",
   "author": "Matt Haggard",
@@ -28,8 +28,9 @@
     },
     "publish": [
       {
-        "provider": "generic",
-        "url": "http://192.168.0.166:8080/"
+        "provider": "github",
+        "owner": "bhanuka-yd",
+        "repo": "electron-updater-example"
       }
     ]
   }
