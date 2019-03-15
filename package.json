@@ -6,7 +6,7 @@
   "author": "Matt Haggard",
   "scripts": {
     "build": "build --win",
-    "publish": "build -p always"
+    "publish": "build --win -p always"
   },
   "devDependencies": {
     "electron": "^4.0.8",
