@@ -1,0 +1,1 @@
+scp -r dist/ bhanukayd@192.168.0.166:/home/bhanukayd/phantem
