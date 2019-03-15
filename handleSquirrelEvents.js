@@ -1,4 +1,6 @@
 module.exports = function handleSquirrelEvent() {
+    const {app} = require('electron');
+
     if (process.argv.length === 1) {
         return false;
     }
