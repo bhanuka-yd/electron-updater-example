@@ -10,7 +10,7 @@ resultPromise = electronInstaller.createWindowsInstaller({
     outputDirectory: outDir.toString(),
     authors: 'My App Inc.',
     exe: 'myapp.exe',
-    loadingGif : gifPath.toString()
+    loadingGif : "load.gif"
 });
 
 resultPromise.then(() => console.log("It worked!"), (e) => console.log(`No dice: ${e.message}`));
