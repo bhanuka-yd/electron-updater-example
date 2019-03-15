@@ -3,7 +3,7 @@ var path = require("path");
 
 const appDir = path.join(__dirname, "..", "dist", "win-unpacked");
 const outDir = path.join(__dirname, "..", "win_build");
-const gifPath = path.join(__dirname,"load.gid");
+const gifPath = path.join(__dirname,"load.gif");
 
 resultPromise = electronInstaller.createWindowsInstaller({
     appDirectory: appDir.toString(),
